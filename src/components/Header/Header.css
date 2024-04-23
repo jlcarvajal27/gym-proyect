@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  justify-content: space-around;
+}
+.logo-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 10px;
+}
+
+.logo {
+  width: 10rem;
+  height: 3rem;
+}
+.header-menu {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  color: white;
+  font-size: large;
+}
+
+.header-menu li:hover {
+  cursor: pointer;
+  color: var(--orange);
+}
+
+@media screen and (max-width: 768px) {
+  .header > :nth-child(2) {
+    position: fixed;
+    right: 2rem;
+    z-index: 99;
+  }
+  .header-menu {
+    flex-direction: row;
+    background-color: var(--appColor);
+    padding: 2rem;
+  }
+}
