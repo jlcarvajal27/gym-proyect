@@ -57,6 +57,11 @@
 .feature > img {
   width: 1rem;
 }
+
+.message-info:hover {
+  cursor: pointer;
+  color: var(--orange);
+}
 .plans > :nth-child(2) > svg {
   fill: white;
 }

@@ -51,6 +51,7 @@ const Home = () => {
           <button className="btn"> Learn More</button>
         </div>
       </div>
+
       <div className="right-h">
         <button className="btn">Join now</button>
 

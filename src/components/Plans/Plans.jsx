@@ -22,14 +22,14 @@ const Plans = () => {
             <div className="features">
               {plan.features.map((feature, index) => (
                 <div className="feature" key={index}>
-                  <img src={whiteTick} alt="" />
+                  <img src={whiteTick} alt={plan.name} />
                   <span key={index}> {feature}</span>
                 </div>
               ))}
             </div>
 
             <div>
-              <span>See more benefits</span>
+              <span className="message-info">See more benefits</span>
             </div>
             <button className="btn">Join Now</button>
           </div>

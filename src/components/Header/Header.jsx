@@ -4,9 +4,6 @@ import { Link } from "react-scroll";
 const Header = () => {
   return (
     <div className="header">
-      {/* <div className="logo-container">
-         <img src={} alt="logo" className="logo" />
-      </div> */}
       <ul className="header-menu">
         <li>
           <Link to="home" smooth={true}>

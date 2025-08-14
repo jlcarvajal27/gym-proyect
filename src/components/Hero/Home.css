@@ -15,7 +15,7 @@
 .right-h {
   flex: 1;
   position: relative;
-  background-color: var(--orange);
+  background: var(--planCard);
 }
 
 .message {
@@ -153,8 +153,8 @@
   padding: 1rem;
   width: fit-content;
   position: absolute;
-  top: 32rem;
-  right: 34rem;
+  top: 34rem;
+  right: 36rem;
 }
 .calories img {
   width: 5rem;
