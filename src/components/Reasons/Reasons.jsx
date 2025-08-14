@@ -1,21 +1,18 @@
-import React from "react";
 import "./Reasons.css";
 import image2 from "../../assets/image2.png";
 import tick from "../../assets/tick.png";
-import imageomar from "../../assets/Image-omar.jpeg";
-import imagehorta from "../../assets/Image-horta.jpeg";
-import imagekevin from "../../assets/Image-kevin.jpeg";
+import { dataImage } from "../../data/reasonsData";
 import logosmarca from "../../assets/logosmarca_preview_rev_1.png";
 
 const Reasons = () => {
   return (
     <div className="Reasons" id="reasons">
       <div className="left-reason">
-        <img src={imageomar} alt="" />
-        <img src={image2} alt="" />
-        <img src={imagehorta} alt="" />
-        <img src={imagekevin} alt="" />
+        {dataImage.map((image) => (
+          <img src={image.url} alt={image.name} key={image.id} />
+        ))}
       </div>
+
       <div className="right-reason">
         <span>some reasons</span>
         <div>
@@ -41,6 +38,7 @@ const Reasons = () => {
             <span>RELIABLE PARTNERS</span>
           </div>
         </div>
+
         <span
           style={{
             color: "var(--gray)",

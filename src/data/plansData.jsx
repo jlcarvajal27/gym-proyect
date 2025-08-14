@@ -2,6 +2,7 @@ import { BicepsFlexed, Crown, HeartPulse } from "lucide-react";
 
 export const plansData = [
   {
+    id: 1,
     icon: <HeartPulse />,
     name: "BASIC PLAN",
     price: "25",
@@ -12,6 +13,7 @@ export const plansData = [
     ],
   },
   {
+    id: 2,
     icon: <Crown />,
     name: "PREMIUM PLAN",
     price: "45",
@@ -22,6 +24,7 @@ export const plansData = [
     ],
   },
   {
+    id: 3,
     icon: <BicepsFlexed />,
     name: "PRO PLAN",
     price: "30",

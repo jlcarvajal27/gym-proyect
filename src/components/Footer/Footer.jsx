@@ -1,9 +1,7 @@
-import React from "react";
 import "./Footer.css";
 import github from "../../assets/github.png";
 import instagram from "../../assets/instagram.png";
 import linkedin from "../../assets/linkedin.png";
-// import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -30,7 +28,6 @@ const Footer = () => {
           </a>
         </div>
         <div className="logo-footer">
-          {/* <img src={logo} alt="" /> */}
           <span> Dev: Jorge luis Carvajal ©</span>
           <hr />
         </div>

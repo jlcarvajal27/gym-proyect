@@ -26,7 +26,7 @@ const Header = () => {
           </Link>
         </li>
         <li>
-          <Link to="footer" span={true} smooth={true}>
+          <Link to="footer" smooth={true}>
             Footer
           </Link>
         </li>

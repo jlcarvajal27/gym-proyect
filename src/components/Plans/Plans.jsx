@@ -1,4 +1,3 @@
-import React from "react";
 import "./Plans.css";
 import whiteTick from "../../assets/whiteTick.png";
 import { plansData } from "../../data/plansData";
@@ -13,8 +12,8 @@ const Plans = () => {
       </div>
 
       <div className="plans">
-        {plansData.map((plan, index) => (
-          <div className="plan" key={index}>
+        {plansData.map((plan) => (
+          <div className="plan" key={plan.id}>
             {plan.icon}
             <span>{plan.name}</span>
             <span> ${plan.price}</span>
